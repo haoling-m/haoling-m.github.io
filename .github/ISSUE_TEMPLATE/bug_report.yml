@@ -1,0 +1,21 @@
+name: "🐛 Bug Report"
+description: "Report a reproducible bug or issue"
+title: "[BUG] <short description>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened?
+      placeholder: Tell us what you see!
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Browser, Version
